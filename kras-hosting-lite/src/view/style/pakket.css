@@ -1,0 +1,33 @@
+.pageContent {
+  flex-flow: column nowrap;
+  padding: 25px;
+}
+
+.detailList {
+  list-style: none;
+  padding: 5px;
+  margin: 10px;
+  font-size: 1.3em;
+}
+
+.detailItem {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #808080
+}
+
+.detailItem:last-of-type {
+  border: none;
+}
+
+.detailKey {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.orderButton {
+  padding: 10px;
+  width: 200px;
+  align-self: center;
+}

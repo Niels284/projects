@@ -1,0 +1,66 @@
+.pageContent {
+  flex-flow: column nowrap;
+}
+
+.textGrey {
+  font-size: 0.8em;
+}
+
+.edit-form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5px;
+  position: relative;
+}
+
+.edit-form-input {
+  border: 1px solid #b9b9b9;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.edit-form-radio-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
+
+.edit-form-radio-option {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  gap: 5px;
+}
+
+.edit-form-radio-inner {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  gap: 5px;
+  position: relative;
+}
+
+.edit-form-button-container {
+  margin: 20px 10px;
+  align-self: flex-end;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.edit-form-cancel {
+  color: #4172F1;
+}
+
+.edit-form-submit {
+  padding: 5px 30px;
+  font-size: 1em;
+}
+
+.input-warn {
+  color: #ff0000;
+  font-size: 0.8em;
+  position: absolute;
+  right: 4px;
+}

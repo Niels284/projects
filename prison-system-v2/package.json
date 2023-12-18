@@ -1,0 +1,21 @@
+{
+  "name": "proftaak-crud-niels284",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/go7M02F3)",
+  "scripts": {
+    "watch": "concurrently \"parcel watch './src/view/style/scss/*.scss' --dist-dir 'src/view/style/scss/build'\" \"parcel watch './src/view/style/scss/pages/*.scss' --dist-dir 'src/view/style/scss/build'\" \"parcel watch './src/view/js/*.js' --dist-dir 'src/view/js/build'\""
+  },
+  "keywords": [],
+  "author": "Niels Jansen",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "concurrently": "^8.2.1",
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "jquery": "^3.7.1"
+  }
+}

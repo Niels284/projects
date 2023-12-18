@@ -1,0 +1,18 @@
+{
+    "name": "nielsjansen/proftaak-crud-niels284",
+    "authors": [
+        {
+            "name": "Niels284",
+            "email": "40193974@roctilburg.nl"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^2.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controller",
+            "src/model"
+        ]
+    }
+}

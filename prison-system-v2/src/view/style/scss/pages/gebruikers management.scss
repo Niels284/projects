@@ -1,0 +1,190 @@
+main {
+    padding-top: 60px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+.btn-circle.btn-lg, .btn-group-lg>.btn-circle.btn {
+    width: 50px;
+    height: 50px;
+    padding: 14px 15px;
+    font-size: 18px;
+    line-height: 23px;
+}
+.text-muted {
+    color: #8898aa!important;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn-circle {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.user-table tbody tr .category-select {
+    max-width: 150px;
+    border-radius: 20px;
+}
+
+table.table {
+    text-align: center;
+
+    tbody {
+        tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.gradient-custom-2 {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.bg-indigo {
+    background-color: #f8f9fa;
+}
+@media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+}
+@media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+}
+
+// close button - bootstrap
+
+.personal_settings_form {
+    position: relative;
+
+    .close-button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: #000;
+        display: block;
+        z-index: 200;
+        text-indent: -9999px;
+        border: none;
+    }
+    .close-button:before,
+    .close-button:after {
+    content: "";
+        width: 55%;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: 48%;
+        left: 22%;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .close-button:after {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .close-button:hover:before,
+    .close-button:hover:after {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    
+}
+
+// update personal settings
+
+.update_settings {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; /* Plaats de section bovenop de rest van de pagina */
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Achtergrondkleur met een lichte transparantie */
+        z-index: 9999; /* Plaats de section bovenop de rest van de pagina */
+    }
+    .container {
+        position: relative;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99999; /* Plaats de section bovenop de rest van de pagina */
+    }
+}
+
+.password_form {
+    position: relative;
+
+    i#togglePassword {
+        position: absolute;
+        top: 55%; 
+        right: 15px;
+    }
+}
+

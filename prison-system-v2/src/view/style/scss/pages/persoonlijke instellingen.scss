@@ -1,0 +1,82 @@
+main {
+    padding-top: 60px;
+}
+
+.pass_show{
+    position: relative
+} 
+
+.pass_show .ptxt { 
+    position: absolute; 
+    top: 50%; 
+    right: 10px; 
+    z-index: 1; 
+    color: #f36c01; 
+    margin-top: -10px; 
+    cursor: pointer; 
+    transition: .3s ease all; 
+} 
+
+.pass_show .ptxt:hover{
+    color: #333333;
+} 
+
+i#togglePassword1, i#togglePassword2, i#togglePassword3 {
+    position: absolute;
+    left: 93%;
+    top: 20%;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .row {
+        position: relative;
+        width: 500px;
+        height: auto;
+        margin: 15px;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+
+        div {
+            width: 100%;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        input {
+            margin-bottom: 20px;
+        }
+    }
+
+    .delete-account {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        button {
+            background-color: transparent;
+            border: none;
+            color: #dc3545;
+        }
+
+        button:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        p {
+            opacity: 75%;
+        }
+    }
+}

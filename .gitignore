@@ -1,0 +1,7 @@
+**/.vscode
+**/.parcel-cache
+**/node_modules
+**/dist
+**/vendor
+**/.env
+**/.DS_Store

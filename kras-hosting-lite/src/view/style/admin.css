@@ -1,0 +1,75 @@
+.admin-nav {
+  background-color: #663797;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
+
+.admin-nav-inner {
+  display: flex;
+  gap: 5px;
+  width: 800px;
+}
+
+.admin-nav-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 0 5px;
+}
+
+.nav-active {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.admin-content {
+  width: 100%;
+  padding: 15px 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+
+.admin-content-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header-row {
+  text-align: left;
+  background-color: #515151 !important;
+  color: #FFFFFF;
+}
+
+.table-row:nth-child(odd) {
+  background-color: #F1F1F1;
+}
+
+td, th {
+  padding: 10px;
+}
+
+th:last-of-type {
+  width: 140px;
+}
+
+.table-data-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-data-actions-edit {
+  color: #4172F1;
+}
+
+.table-data-actions-delete {
+  color: #F15041;
+}
+
+.link-button {
+  padding: 5px 30px;
+  margin: 10px;
+  font-size: 1em;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "nielsjansen/identity-and-authentication",
+    "authors": [
+        {
+            "name": "Niels284",
+            "email": "40193974@roctilburg.nl"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^2.1",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "classmap": [
+            "controller",
+            "model"
+        ]
+    }
+}

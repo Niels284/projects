@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Average Sans', sans-serif;
+}
+
+header {
+  background-color: #663797;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  padding: 0 5px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.redText { 
+  color: #F15041;
+}
+
+.heading {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 600;
+}
+
+.heading::before {
+  content: '';
+  border-left: 2px solid #F15041;
+  margin-right: 10px;
+}
+
+.textGrey {
+  color: #727272;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.pageContent {
+  display: flex;
+  padding: 0 5px;
+  width: 800px;
+  flex-grow: 1;
+}
+
+p {
+  margin: 2px;
+}
+
+button, .link-button {
+  font-size: 1.2em;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  border: none;
+  background-color: #F15041;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 100ms linear;
+  text-decoration: none;
+}
+
+button:hover, .link-button:hover {
+  background-color: hsl(5, 86%, 50%);
+}
